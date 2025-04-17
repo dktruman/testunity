@@ -1,0 +1,22 @@
+target_branches:
+  - main
+
+project_root_path: ObstacleCourse
+
+game_engine: unity
+
+build_targets:
+  - windows_x86_64
+
+publish_targets:
+  - fontys
+  - local
+
+build_arguments:
+  unity:
+    email: "dogfoodbuildplatform@gmail.com"
+    password: "Fontys123!"
+    serial: "F4-PTUT-FXY3-3K6R-EH6M-PSTE"
+    options:
+      - batchmode
+      - nographics

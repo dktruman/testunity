@@ -1,0 +1,57 @@
+Unity Editor version:    2022.2.20f1 (c5d806317f84)
+Branch:                  2022.2/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP Tue Nov 5 00:21:55 UTC 2024
+Kernel version:          5.15.167.4-microsoft-standard-WSL2
+Architecture:            x86_64
+Available memory:        15871 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-root" failed because channel doesn't exist; code: "0x80000002"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 50)
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-root"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.12.1+9338cad
+  Session Id:              e14993cae7224677a63c6f2b284910e6
+  Correlation Id:          192f34f71057c85d3cac941608239be2
+  External correlation Id: 3574130966062915712
+  Machine Id:              D7nTUnjNAmtsUMcnoyrqkgIbYdM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-root" (connect: 0.62s, validation: 0.05s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-root-notifications"
+[Licensing::Module] Connected to LicensingClient (PId: 50, launch time: 0.00, total connection time: 0.66s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Error: License is not active (com.unity.editor.headless). HasEntitlements will fail.
+Pro License: NO
+Initialize udev device monitor.
+No valid Unity Editor license found. Please activate your license.
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 31
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 4.6 KB
+  Peak Large allocation bytes 0 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1743346168347,"processId":16,"allocatedMemory":93719,"memoryLabels":[{"Default":730},{"Thread":64},{"Manager":7770},{"GfxDevice":408},{"Serialization":52},{"BaseObject":12296},{"String":6387},{"DynamicArray":560},{"HashMap":17034},{"Utility":1024},{"GI":2920},{"CloudService":336},{"VR":80},{"EditorUtility":2864},{"RestService":1022},{"License":3616},{"UnityConnect":25488},{"Collab":25},{"LocalIPC":212},{"ProfilerEditor":10831}]}

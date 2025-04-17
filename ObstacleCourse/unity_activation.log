@@ -1,0 +1,55 @@
+Unity Editor version:    2022.2.20f1 (c5d806317f84)
+Branch:                  2022.2/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP Tue Nov 5 00:21:55 UTC 2024
+Kernel version:          5.15.167.4-microsoft-standard-WSL2
+Architecture:            x86_64
+Available memory:        15871 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-root" failed because channel doesn't exist; code: "0x80000002"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 117)
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-root"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.12.1+9338cad
+  Session Id:              d792c619fa0d46c6b866839e8acb6ed5
+  Correlation Id:          8b00a94bf200d653bcab76b6c5ce2691
+  External correlation Id: 8655775700080163897
+  Machine Id:              D7nTUnjNAmtsUMcnoyrqkgIbYdM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-root" (connect: 0.40s, validation: 0.04s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-root-notifications"
+[Licensing::Module] Connected to LicensingClient (PId: 117, launch time: 0.00, total connection time: 0.44s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Module] Generating manual activation license file: /workspace/Unity_v2022.2.20f1.alf
+[Licensing::Client] Successfully processed ALF generation request: /workspace/Unity_v2022.2.20f1.alf
+[Licensing::Module] Manual activation license file successfully saved.
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 31
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 4.5 KB
+  Peak Large allocation bytes 0 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1743346392726,"processId":83,"allocatedMemory":85069,"memoryLabels":[{"Default":530},{"Thread":64},{"Manager":7378},{"Serialization":52},{"BaseObject":12296},{"String":6135},{"DynamicArray":432},{"HashMap":12372},{"Utility":1024},{"GI":2920},{"CloudService":336},{"VR":80},{"EditorUtility":256},{"RestService":1022},{"License":3616},{"UnityConnect":25488},{"Collab":25},{"LocalIPC":212},{"ProfilerEditor":10831}]}

@@ -1,0 +1,3 @@
+UNITY_SERIAL:F4-PTUT-FXY3-3K6R-EH6M-PSTE
+UNITY_EMAIL:dogfoodbuildplatform@gmail.com
+UNITY_PASSWORD:Dogfoodstudios1!
